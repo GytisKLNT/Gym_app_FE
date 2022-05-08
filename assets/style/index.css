@@ -4,7 +4,7 @@
 
 body {
   background: linear-gradient(rgba(2, 141, 240, 0.5), rgba(16, 221, 236, 0.5)),
-    url("assets/pictures/log-reg-bg.jpg");
+    url("../pictures/log-reg-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

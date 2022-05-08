@@ -26,14 +26,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Gym</title>
-    <script src="./assets/src/exercises.js" defer></script>
+    <script src="./assets/src/stats.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
+      integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#">Exercises</a></li>
-          <li><a href="./stats.html">Progress</a></li>
+          <li><a href="home.html">Exercises</a></li>
+          <li><a href="sets.html">Progress</a></li>
           <li>
             <button id="logout">
               <i class="fa-solid fa-arrow-right-from-bracket"></i>
@@ -42,36 +48,37 @@
         </ul>
       </nav>
     </header>
-    <section class="exercises"></section>
-    <form name="addExerc">
-      <h3>Add exercise to your progress</h3>
-      <div class="inputs">
-        <select name="exercise" id="exercise" required>
-          <option value="" disabled selected>Select exercise</option>
-        </select>
-        <input
-          type="number"
-          name="weight"
-          id="weight"
-          placeholder="Body weight, kg"
-          required
-        />
-        <input
-          type="number"
-          name="sets"
-          id="sets"
-          placeholder="Sets"
-          required
-        />
-        <input
-          type="number"
-          name="reps"
-          id="reps"
-          placeholder="Reps"
-          required
-        />
-      </div>
-      <button type="submit">+</button>
-    </form>
+    <main>
+      <section class="chart">
+        <canvas id="myChart" width="70%" height="30rem"></canvas>
+      </section>
+      <section class="total">
+        <h3>Total exercises added:</h3>
+        <span class="totalNum">Loading...</span>
+      </section>
+
+      <section class="mostReps">
+        <h3>Most reps done</h3>
+        <canvas id="repsChart" width="70%" height="30rem"></canvas>
+      </section>
+      <section class="mostSets">
+        <h3>Most sets done</h3>
+        <canvas id="setsChart" width="70%" height="30rem"></canvas>
+      </section>
+      <section class="today">
+        <h3>Todays activity</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Reps</th>
+              <th>Sets</th>
+              <th>Weight, kg</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
