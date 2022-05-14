@@ -141,8 +141,14 @@ const setsChart = (data) => {
 };
 
 const addTable = (element) => {
-  if (!element) {
-    table.textContent = "No activity today. #CheatDay";
+  if (element.length === 0) {
+    const tr = document.createElement("tr");
+    table.append(tr);
+
+    const td1 = document.createElement("td");
+    td1.textContent = "No activity today. #CheatDay";
+
+    tr.append(td1);
   } else {
     const tr = document.createElement("tr");
     table.append(tr);
@@ -171,7 +177,6 @@ const getData = async (token) => {
       },
     });
     const data = await res.json();
-    console.log(data);
 
     weightChart(data);
     repsChart(data);
