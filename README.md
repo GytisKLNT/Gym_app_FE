@@ -1,7 +1,7 @@
   <h3 align="center">Gym App Front-end</h3>
 
   <p align="center">
-    <a href="https://github.com/GytisKLNT/demo11FE"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/GytisKLNT/Gym_app_FE"><strong>Explore the docs »</strong></a>
     
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -23,7 +23,7 @@
 
 ## About The Project
 
-This is a gym web app where you can add exercises that you did and later see the progress like weight changes, favorite exercise & more.
+This is a gym web app where you can add exercises that you did and later see the progress like weight changes, favorite exercise & more. Also i did Back-End server. Check it here ----> https://github.com/GytisKLNT/Gym_App_BE
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -60,7 +60,7 @@ Don't forget to give the project a star! Thanks again!
 
 Your Name - Gytis - gytis.kalanta@gmail.com
 
-Project Link: [https://github.com/GytisKLNT/demo11FE](https://github.com/GytisKLNT/demo11FE)
+Project Link: [https://github.com/GytisKLNT/Gym_app_FE](https://github.com/GytisKLNT/Gym_app_FE)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
