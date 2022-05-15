@@ -22,6 +22,9 @@ const accLogin = async (login) => {
     });
 
     const data = await res.json();
+    if (!data.token) {
+      return alert("Incorrect email or password");
+    }
     localStorage.setItem("token", data.token);
     location.replace("home.html");
 

@@ -64,6 +64,10 @@ nav ul li button {
   width: 2rem;
 }
 
+main {
+  padding: 0 2rem;
+}
+
 .exercises {
   display: block;
   margin: 3rem auto;
@@ -72,12 +76,12 @@ nav ul li button {
 }
 
 .exercises .exerc {
-  background: linear-gradient(rgba(255, 255, 255, 0.142), rgba(251, 0, 0, 0.5)),
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(0, 0, 0, 0.5)),
     url("../pictures/exercise-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 3rem 3rem 0 0;
+  border-radius: 0.5rem;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.708);
   text-transform: uppercase;
@@ -231,7 +235,7 @@ table tr:nth-child(even) {
 
 /* Responsive */
 
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   main {
     display: flex;
     flex-wrap: wrap;
@@ -241,12 +245,9 @@ table tr:nth-child(even) {
 
   .exercises {
     display: flex;
+    justify-content: center;
 
     gap: 2rem;
-    justify-content: space-around;
-  }
-  .exerc {
-    width: 15rem;
   }
 }
 @media (max-width: 350px) {

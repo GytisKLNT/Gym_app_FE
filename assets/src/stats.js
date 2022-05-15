@@ -43,6 +43,48 @@ const weightChart = (data) => {
     },
   });
 };
+const pieChart = (data) => {
+  const exercises = [];
+  let count = {};
+
+  data.forEach((element) => {
+    exercises.push(element.title);
+
+    exercises.forEach((i) => {
+      count[i] = (count[i] || 0) + 1;
+    });
+  });
+
+  const ctx = document.getElementById("pieChart");
+  const myChart = new Chart(ctx, {
+    type: "pie",
+    data: {
+      labels: Object.keys(count),
+      datasets: [
+        {
+          data: Object.values(count),
+          backgroundColor: [
+            "rgba(255, 99, 132)",
+            "rgba(54, 162, 235)",
+            "rgba(255, 206, 86)",
+            "rgba(75, 192, 192)",
+            "rgba(153, 102, 255)",
+            "rgba(255, 159, 64)",
+          ],
+          borderColor: ["rgba(255, 99, 132, 1)"],
+          borderWidth: 0.3,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+};
 
 const repsChart = (data) => {
   const reps = [];
@@ -179,6 +221,7 @@ const getData = async (token) => {
     const data = await res.json();
 
     weightChart(data);
+    pieChart(data);
     repsChart(data);
     setsChart(data);
 

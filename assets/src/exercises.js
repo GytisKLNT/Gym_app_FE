@@ -99,7 +99,7 @@ const getExercises = async () => {
     });
 
     const data = await res.json();
-    console.log(data);
+
     data.forEach((element) => {
       displayExercises(element);
       displayOptions(element);

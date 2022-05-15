@@ -26,13 +26,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Gym</title>
-    <script src="./assets/src/stats.js" defer></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
       integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="./assets/src/stats.js" defer></script>
   </head>
   <body>
     <header>
@@ -49,22 +50,29 @@
       </nav>
     </header>
     <main>
-      <section class="chart">
-        <canvas id="myChart" width="70%" height="30rem"></canvas>
+      <section class="weightChart chart">
+        <h3>Your weight progress, kg</h3>
+        <canvas id="myChart"></canvas>
+      </section>
+
+      <section class="pieChart chart">
+        <h3>Most liked exercises</h3>
+        <canvas id="pieChart"></canvas>
+      </section>
+
+      <section class="mostReps chart">
+        <h3>Most reps done</h3>
+        <canvas id="repsChart" width="70%" height="30rem"></canvas>
+      </section>
+      <section class="mostSets chart">
+        <h3>Most sets done</h3>
+        <canvas id="setsChart" width="70%" height="30rem"></canvas>
       </section>
       <section class="total">
         <h3>Total exercises added:</h3>
         <span class="totalNum">Loading...</span>
       </section>
 
-      <section class="mostReps">
-        <h3>Most reps done</h3>
-        <canvas id="repsChart" width="70%" height="30rem"></canvas>
-      </section>
-      <section class="mostSets">
-        <h3>Most sets done</h3>
-        <canvas id="setsChart" width="70%" height="30rem"></canvas>
-      </section>
       <section class="today">
         <h3>Todays activity</h3>
         <table>
