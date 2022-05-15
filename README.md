@@ -68,8 +68,6 @@ Project Link: [https://github.com/GytisKLNT/demo11FE](https://github.com/GytisKL
 
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 - [Chart.js](https://www.chartjs.org/)
 - [Font Awesome](https://fontawesome.com)
