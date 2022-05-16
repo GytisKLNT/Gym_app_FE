@@ -1,4 +1,4 @@
-  <h3 align="center">Gym App Front-end</h3>
+  <h3 align="center">⛹️ Gym App Front-end</h3>
 
   <p align="center">
     <a href="https://github.com/GytisKLNT/Gym_app_FE"><strong>Explore the docs »</strong></a>
@@ -23,7 +23,11 @@
 
 ## About The Project
 
-This is a gym web app where you can add exercises that you did and later see the progress like weight changes, favorite exercise & more. Also i did Back-End server. Check it here ----> https://github.com/GytisKLNT/Gym_App_BE
+This is a gym web app where you can:
+
+- 💪🏼 Add exercises that you did
+- 👁️ See the progress like weight changes, favorite exercise & more.
+  Also i did Back-End server. Check it here ----> https://github.com/GytisKLNT/Gym_App_BE
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -39,8 +43,6 @@ This is a gym web app where you can add exercises that you did and later see the
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
@@ -51,10 +53,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-<!-- CONTACT -->
 
 ## Contact
 
