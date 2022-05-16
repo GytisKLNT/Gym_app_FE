@@ -1,4 +1,4 @@
-  <h3 align="center">⛹️ Gym App Front-end</h3>
+# ⛹️ Gym App Front-end
 
   <p align="center">
     <a href="https://github.com/GytisKLNT/Gym_app_FE"><strong>Explore the docs »</strong></a>
@@ -57,6 +57,7 @@ Don't forget to give the project a star! Thanks again!
 ## Contact
 
 Gytis - gytis.kalanta@gmail.com
+[LinkedIn](www.linkedin.com/in/gytis-kalanta)
 
 Project Link: [https://github.com/GytisKLNT/Gym_app_FE](https://github.com/GytisKLNT/Gym_app_FE)
 
