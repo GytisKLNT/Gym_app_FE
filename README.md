@@ -56,7 +56,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Contact
 
-Your Name - Gytis - gytis.kalanta@gmail.com
+Gytis - gytis.kalanta@gmail.com
 
 Project Link: [https://github.com/GytisKLNT/Gym_app_FE](https://github.com/GytisKLNT/Gym_app_FE)
 
